@@ -1,0 +1,459 @@
+* {box-sizing: border-box;
+    margin: 0; padding: 0;}
+
+body {
+    background-color: #B1C98A;
+    font-size: 18px;
+    font-family: "Dela Gothic One", sans-serif;
+    color: black;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* top */
+header {
+    z-index: 1000;
+    /*position: fixed;*/
+    height: 129px;
+    background-color: #B1C98A;
+    width: 1440px;
+}
+
+.header_inner {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1380px;
+}
+
+.logo {
+    width: 76px;
+    height: 76px;
+    margin-top: 26px;
+}
+
+nav {
+    margin-top: 58px;
+    margin-left: auto;
+}
+
+.menu {
+    vertical-align: top;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+
+/* block 1 */
+.home-page {
+    width: 100%;
+    height: 663x;
+    background-image: url(./src/img/back1.png);
+}
+
+.intro {
+    padding-top: 46px;
+    margin-left: 46px;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.icon {
+    margin-bottom: 34px;
+    width: 70px;
+    height: 70px;
+}
+
+.last-icon {
+    margin-bottom: 44px;
+}
+
+
+
+
+/* block 2 */
+.lets {
+    width: 100%;
+    height: 196px;
+    display: flex;
+    justify-content: center;
+}
+
+.lets-span {
+    text-align: center;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 42px;
+    line-height: 1.8;
+}
+
+
+
+
+/* block 3 */
+.tours {
+    width: 100%;
+    height: 934px;
+    background-image: url(./src/img/back2.png);
+}
+
+.cubes {
+    display: flex;
+    justify-content: space-between;
+    width: 1370px;
+    height: 479px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cube {
+    width: 426px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cube-img {
+    width: 426px;
+    height: 352px;
+}
+
+.rectangle {
+    width: 426px;
+    height: 127px;
+    background-color: #FF630B;
+    font-size: 36px;
+    color: #fff;
+    padding-top: 34px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rectangle:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tours-title-container {
+    height: 455px;
+    width: 1370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tours-title {
+    padding-top: 84px;
+    margin-top: auto;
+    text-align: center;
+    font-size: 175px;
+    color: white;
+    font-weight: 200;
+}
+
+
+
+
+/* gap */
+.gap {
+    height: 184px;
+}
+
+
+
+
+/* block 4 */
+.gids {
+    background-color: #5D815A;
+    width: 100%;
+    height: 866px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gids-title {
+    padding-top: 74px;
+    padding-left: 34px;
+    font-size: 96px;
+    color: white;
+}
+
+.rounds {
+    padding-top: 61px;
+    display: flex;
+    justify-content: space-between;
+    width: 1244px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round {
+    width: 356px;
+}
+
+.gid-img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.name {
+    position: absolute;
+    color: #fff;
+    font-size: 36px;
+    padding-top: 13px;
+    width: 356px;
+    text-align: center;
+}
+
+
+
+
+/* gap */
+
+
+
+
+/* block 5 */
+.booking {
+    width: 100%;
+    height: 1080px;
+    background: url(./src/img/back3.png);
+}
+
+.booking-container {
+    padding-top: 123px;
+    padding-left: 69px;
+}
+
+.booking-title {
+    padding-bottom: 60px;
+    font-size: 96px;
+    line-height: 1.7;
+    color: white;
+  -webkit-text-stroke: 0.3px #000;
+}
+
+.booking-button {
+    font-size: 32px;
+    color: #fff;
+    width: 364px;
+    padding: 33px 27px;
+    background-color: #FF630B;
+    text-align: center;
+    border: none;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.booking-button:hover {
+    transform: scale(1.05);
+    background-color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+/* block 6 */
+.cards {
+    padding-top: 77px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* common */
+.text01, .text02, .text03 {
+    display: flex;
+    flex-direction: column;
+}
+
+.number-card {
+    font-size: 128px;
+}
+
+.span-card {
+    font-size: 48px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+    margin-top: -17px;
+}
+
+.button-card {
+    width: 174px;
+    height: 45px;
+    background-color: #FF630B;
+    color: #000;
+    text-align: center;
+    padding-top: 2px;
+    border: none;
+    font-size: 15px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.button-card:hover {
+    transform: scale(1.05);
+    background-color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.border {
+    outline: 14px solid #000;
+    outline-offset: -14px;
+    border-radius: 51px;
+}
+
+/* 01 */
+.card01 {
+    width: 1370px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text01 {
+    padding-top: 85px;
+}
+
+.back-img01 {
+    background-color: #FF630B;
+    width: 477px;
+    height: 481px;
+}
+
+.img01 {
+    margin-left: 52px;
+    margin-top: 52px;
+}
+
+/* 02 */
+.card02 {
+    margin-top: 108px;
+    width: 1294px;
+    margin-left: 84px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.text02 {
+    margin-top: 42px;
+}
+
+.right-position {
+    text-align: right;
+}
+
+.right-button {
+    margin-left: auto;
+}
+
+.back-img02 {
+    background-color: #FF630B;
+    width: 485px;
+    height: 637px;
+}
+
+.img02 {
+    margin-left: 31px;
+    margin-top: 31px;
+}
+
+/* 03 */
+.card03 {
+    margin-top: -8px;
+    width: 1321px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 61px;
+}
+
+.text03 {
+    margin-top: 96px;
+}
+
+.back-img03 {
+    background-color: #FF630B;
+    width: 563px;
+    height: 600px;
+}
+
+.img03 {
+    margin-left: 60px;
+    margin-top: 65px;
+}
+
+/* end of cards */
+
+.background-color {
+    min-height: 1765px;
+    background-color: #5D815A;
+    margin-top: -1640px;
+}
+
+/* footer */
+footer {
+    background-color: #2F442D;
+    width: 100%;
+    height: 344px;
+}
+
+.footer-container {
+    width: 1253px;
+    margin-left: 129px;
+    padding-top: 118px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    width: 408px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.contacts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 36px;
+}
+
+.mailto {
+    margin-top: -3px;
+    text-decoration: none;
+    color: #fff;
+}
